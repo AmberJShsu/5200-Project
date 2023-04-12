@@ -1,0 +1,22 @@
+#1.1 table 2
+P_H = 0.33
+P_L = 0.46
+P_S = 0.21
+P_HH = 0.53*P_H*P_H
+P_HL = 0.74*P_H*P_L
+P_HS = 0.82*P_H*P_S
+P_LH = 0.44*P_L*P_H
+P_LL = 0.61*P_L*P_L
+P_LS = 0.71*P_L*P_S
+P_SH = 0.28*P_S*P_H
+P_SL = 0.41*P_S*P_L
+P_SS = 0.59*P_S*P_S
+
+P_wvd = [P_HH, P_HL, P_HS, P_LH, P_LL, P_LS, P_SH, P_SL, P_SS]
+total_p = sum(P_wvd)
+print(total_p)
+
+#1.1 table 3
+
+
+#
